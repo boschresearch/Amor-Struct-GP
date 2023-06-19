@@ -1,0 +1,29 @@
+name: amorstructgp
+
+dependencies:
+        - python=3.8
+        - numpy==1.21.5
+        - pandas==1.4.1
+        - scipy==1.7.3
+        - testfixtures
+        - matplotlib
+        - pydantic
+        - pytest
+        - pytest-cov
+        - seaborn
+        - pip
+        - dill
+        - ipykernel
+        - pip:
+                - scikit-learn
+                - torch==1.12.1
+                - gpytorch==1.7.0
+                - PyYAML
+                - tensorboardX
+                - easydict
+                - black
+                - pyro-ppl==1.7.0
+                - openpyxl==3.0.10
+                - plotly==5.13.0
+                - kaleido==0.2.1
+                - nbformat
